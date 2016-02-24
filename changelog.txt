@@ -1,0 +1,32 @@
+Changelog
+=========
+
+2.1.3: Febuary 10, 2016
+-----------------------
+
+- Fix: Increased request timeout
+
+2.1.2: January 21, 2016
+-----------------------
+
+- Enhancement: Twitter Fabric support
+
+2.1.1: December 18, 2015
+------------------------
+
+- Fix: Stop earcon is no longer played when transaction is cancelled during recognition
+
+2.1.0: December 15, 2015
+------------------------
+
+SpeechKit 2 is here!
+
+- This SDK is not backwards compatible with SpeechKit 1.x
+- The format of your AppKey has changed
+- SSL is now manditory
+
+- Enhancement: Ability to have multiple simultaneous transactions
+- Enhancement: Support for receiving NLU results for audio and text sent to the Mix platform *Available to Beta participants only*
+- Enhancement: Ability to get confidence of specific words in addition to a phrase for speech recognition
+- Enhancement: Playback API for playing back PCM 16K audio loaded from a file
+- Fix: Addresses problem with SpeechKit interfering with other audio sessions
